@@ -57,6 +57,7 @@ public class SignupActivity extends AppCompatActivity {
                     auth.createUserWithEmailAndPassword(user,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
+
                             if(task.isSuccessful()){
                                 Toast.makeText(SignupActivity.this,"SignUp Successfully",Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(SignupActivity.this, StartActivity.class));

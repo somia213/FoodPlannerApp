@@ -19,4 +19,13 @@
     <string name="signin">Sign in</string>
     <string name="guest">Guest</string>
     <string name="default_web_client_id">71320698700-md8rku407o551auvj3aqvpm18jdg090s.apps.googleusercontent.com</string>
+    <string name="daily_inspiration">Daily Inspiration</string>
+    <string name="meal">Meal</string>
+    <string name="meal1">Meal</string>
+    <string name="like">You might like this</string>
+    <string name="seeMore">See more</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="addToPlan">Add To Plan</string>
+    <string name="searchBymeal">Search By Meal Name</string>
 </resources>
